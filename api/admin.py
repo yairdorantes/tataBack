@@ -1,3 +1,4 @@
 from django.contrib import admin
+from .models import Ventas,Products,Clients,Providers
 
-# Register your models here.
+admin.site.register([Ventas,Products,Clients,Providers])
